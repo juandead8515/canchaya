@@ -115,8 +115,9 @@ function renderizar() {
   document.querySelectorAll(".nav a").forEach(a => {
     a.classList.toggle("activo", a.getAttribute("href") === "#/" + ruta);
   });
-}
 
+  document.dispatchEvent(new Event("vistaRenderizada"));
+}
 function mostrarMensajes(lista, tipo) {
   const contenedor = document.getElementById("mensajes");
   if (!contenedor) return;
