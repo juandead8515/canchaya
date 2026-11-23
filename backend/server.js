@@ -4,7 +4,7 @@ const path = require("path");
 
 const PORT = process.env.PORT || 3000;
 const API_KEY = process.env.GEMINI_API_KEY;
-const MODELO = "gemini-2.5-flash";
+const MODELO = "gemini-3.1-flash-lite";
 const FRONTEND = path.join(__dirname, "..", "frontend");
 const TIPOS = {
   ".html": "text/html; charset=utf-8",
