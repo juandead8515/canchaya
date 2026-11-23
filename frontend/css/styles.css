@@ -132,60 +132,11 @@ a { color: inherit; text-decoration: none; }
 .step { padding: 1.5rem; }
 .step-icon { font-size: 2.5rem; }
 .step h3 { margin: .5rem 0; }
-
 /* Pie */
 .footer {
   background: #1d2b24;
-  color: #ddd;
-  text-align: center;
-  padding: 2rem 0;
-  font-size: .9rem;
 }
 
-/* Responsive */
-@media (max-width: 600px) {
-  .hero { padding: 3rem 0; }
-  .nav { justify-content: center; }
-}
-/* Navegación activa */
-.nav a.activo { color: var(--verde); font-weight: 700; }
-
-/* Pantallas */
-.hero + .section { padding-top: 2rem; }
-.formulario {
-  max-width: 480px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  background: var(--blanco);
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0,0,0,.08);
-}
-.formulario label { display: flex; flex-direction: column; gap: .3rem; font-size: .95rem; }
-.formulario input, .formulario select {
-  padding: .6rem; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem;
-}
-
-/* Mensajes de validación */
-.alerta { padding: .8rem 1rem; border-radius: 8px; margin-bottom: .8rem; max-width: 480px; margin-left: auto; margin-right: auto; }
-.alerta-error { background: #fde2e2; color: #8a1c1c; }
-.alerta-ok { background: #d4f1dd; color: var(--verde-oscuro); }
-
-/* Lista de reservas */
-.lista-reservas { list-style: none; max-width: 640px; margin: 0 auto; }
-.item-reserva {
-  display: flex; justify-content: space-between; align-items: center; gap: 1rem;
-  background: var(--blanco); padding: 1rem; border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,.06); margin-bottom: .8rem;
-}
-.btn-peligro { background: #c0392b; }
-.btn-peligro:hover { background: #962d22; }
-.vacio { text-align: center; }
-
-/* Ajustes de tarjetas dentro del contenedor principal */
-#app .card a.btn { margin: 1rem; }
 /* Asistente virtual */
 .oculto { display: none !important; }
 
